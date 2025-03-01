@@ -1,0 +1,5 @@
+1. Figure out how to run script when firefox has opened.
+
+2. see how python script can be always executed in background
+
+3. listen for what is typed in the search bar.
