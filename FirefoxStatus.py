@@ -1,5 +1,6 @@
 import psutil
-import event
-firefoxstatus = "firefox.exe" in (i.name() for i in psutil.process_iter())
+""" from pynput import keyboard """
 
-print(firefoxstatus)
+firefoxstatus = "firefox.exe" in (i.name() for i in psutil.process_iter())
+if(firefoxstatus):
+    #listen for keylogs here

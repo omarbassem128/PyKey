@@ -1,5 +1,5 @@
-1. Figure out how to run script when firefox has opened.
+1. pynput.keyboard will be more efficient than pynput.mouse
 
-2. see how python script can be always executed in background
+2. keylogger should start working once firefox is open, and it shouldn't be working otherwise.
 
-3. listen for what is typed in the search bar.
+3. record keylogs in a log file and compare them with a list of possible search queries (not sure yet)
