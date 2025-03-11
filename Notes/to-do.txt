@@ -1,5 +1,5 @@
-1. pynput.keyboard will be more efficient than pynput.mouse
+1. keylogger should start working once firefox is open, and it shouldn't be working otherwise. (this will work using AppOpener)
 
-2. keylogger should start working once firefox is open, and it shouldn't be working otherwise.
+2. record keylogs in a log file and compare them with a list of possible search queries (not sure yet)
 
-3. record keylogs in a log file and compare them with a list of possible search queries (not sure yet)
+3. Once a search query is found, close firefox and prevent it from opening for an hour(work in progress)

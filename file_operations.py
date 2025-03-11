@@ -9,4 +9,4 @@ loggingfile.close()
 read_from_log.close() """
 
 with open(file='log.txt', mode='w') as logfile:
-    logfile.write('Allah I love you')
+    logfile.write('olololololololol')
