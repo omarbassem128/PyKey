@@ -1,5 +1,7 @@
-1. keylogger should start working once firefox is open, and it shouldn't be working otherwise. (this will work using AppOpener)
+1. keylogger should start working once firefox is open, and it shouldn't be working otherwise.(use pythonw maybe)
 
-2. record keylogs in a log file and compare them with a list of possible search queries (not sure yet)
+2. see if pythonw can automatically execute scripts in the background once I open the computer. If not, maybe use pyinstaller to activate pythonw?
 
-3. Once a search query is found, close firefox and prevent it from opening for an hour(work in progress)
+current thing to work on is to see how a script can automatically execute once computer opens and stops once computer shuts down. 
+Only way working way I've found is using pyinstaller. However, pyinstaller is only used to execute python files, and to use pythonw we need to use the cmd to run a command
+that will keep executing in the background.
