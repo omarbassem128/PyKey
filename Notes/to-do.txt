@@ -3,5 +3,8 @@
 2. see if pythonw can automatically execute scripts in the background once I open the computer. If not, maybe use pyinstaller to activate pythonw?
 
 current thing to work on is to see how a script can automatically execute once computer opens and stops once computer shuts down. 
-Only way working way I've found is using pyinstaller. However, pyinstaller is only used to execute python files, and to use pythonw we need to use the cmd to run a command
+Only working way I've found is using pyinstaller. However, pyinstaller is only used to execute python files, and to use pythonw we need to use the cmd to run a command
 that will keep executing in the background.
+
+
+windows task scheduler or NSSM can be used to run script automatically on startup
