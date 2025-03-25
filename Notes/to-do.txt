@@ -1,12 +1,14 @@
-1. keylogger should start working once firefox is open, and it shouldn't be working otherwise.(use pythonw maybe)
-
-2. see if pythonw can automatically execute scripts in the background once I open the computer. If not, maybe use pyinstaller to activate pythonw?
-
-
 NSSM will be used to automate the script.
-
-
 
 python script doesn't have to be a .bat file .
 https://youtu.be/50-pJN-KJDY?si=JlGtJVs_drES_nOY
+
+
+1. keylogger should start working once firefox is open, and it shouldn't be working otherwise.
+
+2. if firefox is open, start listening for keyboard inputs as words and compare the words to a hard-coded array with words that aren't allowed to be searched.
+
+3. if a hit occurs, automatically close firefox. (maybe add something else to closing firefox, like activating cold turkey blocker?)
+
+
 
