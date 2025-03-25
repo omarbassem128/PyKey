@@ -5,6 +5,8 @@
 
 NSSM will be used to automate the script.
 
-to execute the script using NSSM, it probably has to be a .bat file . (will still research more)
 
-maybe a create script that opens startpage search page automatically once firefox opens. (for testing how to work with NSSM)
+
+python script doesn't have to be a .bat file .
+https://youtu.be/50-pJN-KJDY?si=JlGtJVs_drES_nOY
+
