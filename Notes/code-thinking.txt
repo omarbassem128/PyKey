@@ -1,0 +1,9 @@
+script should start running once firefox is open. NSSM will handle this (probably)
+
+code should handle requests once enter is pressed. Meaning,
+script will analyze words in  each search query made. 
+
+
+script should also be able to handle long search queries that contain the unauthorized words.For example,
+if one the unauthorized words is mario, then the script should close firefox once the user searches for "super mario maker nintendo".So,
+script should check if any, or if all, the unauthorized words are searched for. If they are, firefox should close.   

@@ -1,5 +1,8 @@
 from pynput import keyboard
+
 print('Program Is Running')
+
+
 def on_press(key):
     try:
         print(f'{key} is pressed')
@@ -8,5 +11,5 @@ def on_press(key):
         
         
 with keyboard.Listener(on_press=on_press) as listener:
-    listener.join()
+    listener.start()
     

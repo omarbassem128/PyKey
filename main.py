@@ -4,7 +4,7 @@ import time
 
 
 while(True):
-    notepadstatus = "firefox.exe" in (i.name() for i in psutil.process_iter())
-    if(notepadstatus):
+    firefoxstatus = "firefox.exe" in (i.name() for i in psutil.process_iter())
+    if(firefoxstatus):
         close("firefox")
     time.sleep(4)

@@ -3,6 +3,7 @@ NSSM will be used to automate the script.
 python script doesn't have to be a .bat file .
 https://youtu.be/50-pJN-KJDY?si=JlGtJVs_drES_nOY
 
+create your own wordlist file and don't use an online one.
 
 1. keylogger should start working once firefox is open, and it shouldn't be working otherwise.
 
