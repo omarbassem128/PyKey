@@ -11,10 +11,14 @@ def checkStatus():
         return False
 
 def on_key_press(key):
-    checkstatus = checkStatus()
-    if(checkstatus):
+    """ print(f'{key} is pressed') """
+    if(checkStatus()):
         print(f'{key} is pressed')
+    else:
+        return False
 
-
-with keyboard.Listener(on_press=on_key_press) as listener:
-    listener.join()
+while(True):
+    if(checkStatus()):
+        with keyboard.Listener(on_press=on_key_press) as listener:
+            listener.join()
+    time.sleep(2)
