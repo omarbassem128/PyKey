@@ -13,6 +13,7 @@ def checkStatus():
 def on_key_press(key):
     """ print(f'{key} is pressed') """
     if(checkStatus()):
+        #write keys to file from here
         print(f'{key} is pressed')
     else:
         return False
