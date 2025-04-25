@@ -1,10 +1,7 @@
 keylogger should start running once firefox is open, and stop once firefox closes. ✅
 
-code should handle requests once enter is pressed. Meaning,
-script will analyze words in each search query made. 
 
-
-script should also be able to handle long search queries that contain the unauthorized words.For example,
-if one the unauthorized words is mario, then the script should close firefox once the user searches for "super mario maker nintendo".So,
-script should check if any, or if all, the unauthorized words are searched for. If they are, firefox should close. 
+There should be a boolean variable that checks the status of the log file (open or closed) so that the file doesn't keep on reopening for every keylog.
+ 
+script should clear past logs of the log file each time firefox closes and then opens.
 

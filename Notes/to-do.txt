@@ -6,10 +6,11 @@ https://youtu.be/50-pJN-KJDY?si=JlGtJVs_drES_nOY
 create your own wordlist file and don't use an online one.
 
 1. keylogger should start working once firefox is open, and it shouldn't be working otherwise.✅
-
-2. if firefox is open, start listening for keyboard inputs as words and compare the words to a hard-coded array of words that aren't allowed to be searched.
-
-3. if a hit occurs, automatically close firefox. (maybe add something else to closing firefox, like activating cold turkey blocker?)
-
+2. write key logs to a file
+3. if firefox is open, start listening for keyboard inputs as words and compare the words to a hard-coded array of words that aren't allowed to be searched.
+4. if a hit occurs, automatically close firefox. (maybe add something else to closing firefox, like activating cold turkey blocker?)
+5. script should also be able to handle long search queries that contain the unauthorized words.For example,
+if one the unauthorized words is mario, then the script should close firefox once the user searches for "super mario maker nintendo".So,
+script should check if any, or if all, the unauthorized words are searched for. If they are, firefox should close.
 
 
